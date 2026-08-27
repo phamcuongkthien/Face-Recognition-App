@@ -1,17 +1,19 @@
 # Phần Mềm Nhận Dạng Khuôn Mặt (Face Recognition System)
 
 ## 1. Giới thiệu dự án
-Hệ thống sử dụng xử lý ảnh và Học máy (Machine Learning) để phát hiện và nhận dạng khuôn mặt trong hình ảnh hoặc webcam.
-Phạm Văn Cường (Nhóm trưởng): Quản lý & Thu thập dữ liệu
-Công việc: Tạo/quản lý repo, chuẩn bị bộ dữ liệu hình ảnh (dataset), tiền xử lý và gán nhãn dữ liệu khuôn mặt.
-Trương Văn Tiến: Huấn luyện mô hình AI (Model Training)
-Công việc: Trích xuất đặc trưng khuôn mặt (embeddings), huấn luyện mô hình nhận dạng bằng OpenCV/Face_Recognition/Dlib và tối ưu độ chính xác.
-Nguyễn Thị Thu Yên: Phát triển giao diện (UI/UX)
-Công việc: Thiết kế và lập trình giao diện người dùng cho phép chọn ảnh, bật webcam và hiển thị kết quả.
-Bùi Minh Đức: Tích hợp hệ thống & Xử lý Real-time
-Công việc: Kết nối mô hình AI vào giao diện, viết logic kết nối camera/webcam để nhận diện khuôn mặt theo thời gian thực.
-Hoàng Mạnh Hùng: Kiểm thử & Viết tài liệu
-Công việc: Viết test case, kiểm thử hệ thống (đánh giá độ chính xác, tốc độ nhận diện), viết báo cáo dự án và cập nhật file README.md.
+Hệ thống ứng dụng xử lý ảnh và Học máy (Machine Learning) để tự động phát hiện và nhận dạng khuôn mặt qua hình ảnh hoặc camera/webcam theo thời gian thực.
+
+## 2. Thành viên nhóm & Phân công công việc
+
+| STT | Họ và tên | Vai trò | Phân công công việc | Branch |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | **Phạm Văn Cường** *(Leader)* | Quản lý & Data | Tạo/quản lý repo, thu thập, tiền xử lý và gán nhãn dataset | `feature/data-preparation` |
+| 2 | **Trương Văn Tiến** | AI Model | Trích xuất đặc trưng (embeddings), huấn luyện & tối ưu mô hình | `feature/model-training` |
+| 3 | **Nguyễn Thị Thu Yên** | UI/UX | Thiết kế & lập trình giao diện chọn ảnh, bật webcam, hiển thị kết quả | `feature/ui-development` |
+| 4 | **Bùi Minh Đức** | System Integration | Kết nối mô hình AI với UI, xử lý luồng camera/webcam real-time | `feature/system-integration` |
+| 5 | **Hoàng Mạnh Hùng** | QA & Docs | Thiết kế test case, kiểm thử hiệu năng & viết báo cáo dự án | `feature/testing-documentation` |
+
 ## 3. Công nghệ sử dụng
-* Ngôn ngữ: Python
-* Thư viện: OpenCV, Face_Recognition / Dlib, Tkinter hoặc PyQt
+* **Ngôn ngữ:** Python
+* **Thư viện AI/Xử lý ảnh:** OpenCV, `face_recognition` / Dlib
+* **Giao diện (UI):** Tkinter / PyQt
