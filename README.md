@@ -17,3 +17,4 @@ Hệ thống ứng dụng xử lý ảnh và Học máy (Machine Learning) để
 * **Ngôn ngữ:** Python
 * **Thư viện AI/Xử lý ảnh:** OpenCV, `face_recognition` / Dlib
 * **Giao diện (UI):** Tkinter / PyQt
+* **Cơ sở dữ liệu:** SQLite
